@@ -1,0 +1,64 @@
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: xx-large;
+  font-family: cursive;
+}
+#Button {
+  background-color: black;
+  font-family: cursive;
+}
+#Button :hover {
+  color: rgb(249, 249, 253);
+}
+#TotalScore {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 5
+   1px grey;
+  width: 150px;
+  padding: 20px;
+}
+#Totalval {
+  text-align: center;
+}
+#class {
+  display: flex;
+  align-items: center;
+}
+.numbers {
+  height: 60px;
+  width: 60px;
+  background: #eee;
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy;
+  margin: 10px;
+}
+#flex {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.click {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.click h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.numbers:hover {
+  background-color: #131010;
+}
